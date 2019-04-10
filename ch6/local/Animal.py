@@ -8,7 +8,7 @@ class Dog(Animal):
         super().__init__(name, age)
     def eat(self):
         print(self.name," is eating!")
-dog = Dog('dog',1000)
+dog = Dog('dog',9000)
 print(Dog.type)
 print(dog.type)
 
